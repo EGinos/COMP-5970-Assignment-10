@@ -25,8 +25,6 @@ struct SignupView: View {
                     authVM.signUp(email: email, password: password)
                 }
                 .buttonStyle(.borderedProminent)
-                NavigationLink("Create Account", destination: SignupView())
-                    .padding(.top)
             }
             .padding()
             .navigationTitle("Sign Up")
